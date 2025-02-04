@@ -1,0 +1,11 @@
+<h1>Country List</h1>
+<hr>
+
+<div class="country-list__container">
+    @for(country of countries(); track country;) {
+        <div class="country-list__card" (click)="goTo(country.name)">
+            <img [src]="country.flag" [alt]="country.name">
+            <p>{{country.name}}</p>
+        </div>
+    }
+</div>

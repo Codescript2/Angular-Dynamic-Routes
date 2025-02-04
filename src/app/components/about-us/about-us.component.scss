@@ -1,0 +1,28 @@
+
+.about-us {
+    &__container {
+        padding: 32px;
+
+
+
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+
+        a {
+            color: #27137e;
+
+            &:hover {
+                color: #4f0ee8;
+            }
+
+            &.active {
+                color: #8354f1;
+
+            }
+        }
+    }
+}

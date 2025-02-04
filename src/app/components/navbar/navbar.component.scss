@@ -1,0 +1,21 @@
+.navbar {
+    width: 100%;
+    padding: 24px;
+    background-color: #27137e;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+    a {
+        color: #b3b3b3;
+
+        &:hover {
+            color: #FFFFFF;
+        }
+
+        &.active {
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+    }
+}

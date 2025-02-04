@@ -1,0 +1,12 @@
+<h1>Country Component</h1>
+<hr>
+
+<img [src]="country()?.flag" alt="country()?.name">
+<p>País: <strong>{{country()?.name}}</strong></p>
+<p>Capital:
+@for(capital of country()?.capital; track capital) {
+    <strong>{{capital}}</strong>
+}
+</p>
+<p>Población: <strong>{{country()?.population}}</strong></p>
+<p>Region: <strong>{{country()?.region}}</strong></p>
