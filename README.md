@@ -1,6 +1,10 @@
-# StructuralDirective
+# Angular Nested and Dynamic Routes
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+
+## Link to the youtube video
+
+[Youtube Video](https://youtu.be/FPasueN3ABA?si=cBJxDmDQP-n5GUyR)
 
 ## Development server
 
